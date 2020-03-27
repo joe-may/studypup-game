@@ -17,6 +17,9 @@ Have an icy blast in this math-based game! The player must hit the evil snowman 
 HTML, CSS, JavaScript, and jQuery 
 
 # Getting Started
+
+click link : https://joe-may.github.io/studypup-game/
+
 To start the game, click the “START” button. A math problem will be prompted at the bottom left of the screen. Move your cursor crosshairs over the snowman that you believe holds the correct answer, and click to hit him and submit your answer. If you’re correct, the snowman will disappear and a new problem will appear. Keep going until every problem is answered, and every snowman disappeared! If you answer incorrectly three times, you will lose, the game will reset, and you will have to start over.
 
 # Next Steps:
