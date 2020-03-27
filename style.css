@@ -54,13 +54,16 @@ body {
     display: flex;
     margin: 0 0 10px;
     font-size: 50px;
-    margin: 0px 0px 0px 100px;
-    /* background-color: cornflowerblue; */
+    margin: 0px 1020px 0px 100px;
+    background-color: cornflowerblue;
+    border-radius: 20px 20px 20px 20px;
   }
  
 .start {
     font-family: 'Titan One';
     font-size: 60px;
+    color: rgb(90, 170, 207) ;
+    border-radius: 20px 20px 20px 20px;
 }
 .obi {
     background-position: bottom;
@@ -98,9 +101,20 @@ body {
 
 .win 
  {
-     
+    margin: -300px 60px -20px 90px;
+    background-color: cornsilk;
+    color: rgb(90, 170, 207);
+    margin: -150px 500px 40px 500px;
  }
  .lose {
+    text-align: center;
+    margin: -350px 400px 70px 410px;
+    font-family: 'Titan One';
+    font-size: 60px;
+    color: rgb(90, 170, 207) ;
+    border-radius: 20px 20px 20px 20px;
+    background-color: cornsilk;
+   
 
  }
   /* .divClass {

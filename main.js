@@ -8,6 +8,14 @@ $('.lose').hide();
 ///// audio
 
 /////////
+var generateHearts = function () {
+  var heartsLoad = $('<li></li>').html('<img class=heart src="https://i.imgur.com/MQ88P97.png" />');
+  $("ul").append(heartsLoad);
+  console.log("generating!");
+  }
+
+
+
 const answerset = [
   { problem: "3 + 2 =", answer: "5"},
   { problem: "6 + 1 =", answer: "7"},
@@ -27,6 +35,15 @@ $('.start').on('click',function() {
 $('.start').hide();
 $('.win').hide();
 $('.lose').hide();
+$('li').first().remove();
+$('li').first().remove();
+$('li').first().remove();
+generateHearts();
+generateHearts();
+generateHearts();
+// $("ul").append('<img src="https://i.imgur.com/MQ88P97.png" />');
+// $("li").html('<img src="https://i.imgur.com/MQ88P97.png" />');
+
 
 $(document).mousemove(function(e) {
   mouseX = e.pageX;
@@ -94,6 +111,11 @@ console.log(currentGameArray);
       $('.lose').show();
       $(".reset").html(" ");
       $(".start").show();
+      // generateHearts();
+      
+      
+
+      
     }
   });
 
@@ -109,6 +131,7 @@ console.log(currentGameArray);
 
     var problemHtml = $('<p></p>').html(selectedProblem);
     $(".problem").append(problemHtml);
+    
   }
   
 
@@ -121,11 +144,18 @@ console.log('keep playing');
     $(".reset").html(" ");
     $(".start").show();
     $('.tryAgain').show()
+    // generateHearts();
+    
+   
+    
   };
 }
   
 }); 
 
 
-
-  
+// var generateHearts = function () {
+// var heartsLoad = $('<li></li>').html('<img class=heart src="https://i.imgur.com/MQ88P97.png" />');
+// $("ul").append(heartsLoad);
+// console.log("generating!");
+// }
